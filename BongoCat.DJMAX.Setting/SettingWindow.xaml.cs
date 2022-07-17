@@ -231,7 +231,7 @@ namespace BongoCat.DJMAX.Setting
 
             if (!_skipSaveHint && _settingTransaction.IsChanged)
             {
-                if (MessageBox.Show("변경된 사항을 저장하시겠습니까?", Title, MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
+                if (MessageBox.Show("是否保存更改？", Title, MessageBoxButton.OKCancel, MessageBoxImage.Information) == MessageBoxResult.OK)
                 {
                     Save();
                 }

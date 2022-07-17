@@ -137,7 +137,7 @@
             <TextBlock Style="{StaticResource Header}" Text="DISPLAY SETTING" />
 
             <UniformGrid Columns="2">
-                <TextBlock Style="{StaticResource Property.Header}" Text="키" />
+                <TextBlock Style="{StaticResource Property.Header}" Text="身高" />
                 <ComboBox
                     ItemsSource="{Binding ButtonItems}"
                     SelectedValue="{Binding Buttons.Value}"
@@ -151,7 +151,7 @@
             </UniformGrid>
 
             <UniformGrid Margin="{StaticResource Property.Margin}" Columns="2">
-                <TextBlock Style="{StaticResource Property.Header}" Text="스킨" />
+                <TextBlock Style="{StaticResource Property.Header}" Text="化妆水" />
                 <ComboBox
                     ItemsSource="{Binding SkinItems}"
                     SelectedValue="{Binding Skin.Value}"
@@ -159,7 +159,7 @@
             </UniformGrid>
 
             <UniformGrid Margin="{StaticResource Property.Margin}" Columns="2">
-                <TextBlock Style="{StaticResource Property.Header}" Text="배경색" />
+                <TextBlock Style="{StaticResource Property.Header}" Text="背景色" />
                 <ComboBox
                     ItemsSource="{Binding BackgroundItems}"
                     SelectedValue="{Binding Background.Value}"
@@ -173,7 +173,7 @@
             </UniformGrid>
 
             <UniformGrid Margin="{StaticResource Property.Margin}" Columns="2">
-                <TextBlock Style="{StaticResource Property.Header}" Text="초당 프레임 제한" />
+                <TextBlock Style="{StaticResource Property.Header}" Text="帧限制" />
                 <ComboBox
                     ItemsSource="{Binding RefreshRateItems}"
                     SelectedValue="{Binding RefreshRate.Value}"
@@ -187,7 +187,7 @@
             </UniformGrid>
 
             <UniformGrid Margin="{StaticResource Property.Margin}" Columns="2">
-                <TextBlock Style="{StaticResource Property.Header}" Text="항상 위에서 보기" />
+                <TextBlock Style="{StaticResource Property.Header}" Text="顶部查看" />
                 <ComboBox
                     ItemsSource="{Binding TopMostItems}"
                     SelectedValue="{Binding TopMost.Value}"
